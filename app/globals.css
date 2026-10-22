@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-lightHover: #fff1f1;
+  --color-darkHover: #3b0a0a;
+  --color-darkTheme: #120000;
+
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+}
+
+* {
+  font-family: var(--font-outfit);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-outfit);
+}
+
+p {
+  font-family: var(--font-ovo);
+  font-weight: 400;
+}
+
+a {
+  font-family: var(--font-outfit);
+}
+
+button {
+  font-family: var(--font-outfit);
+}
+
+li {
+  font-family: var(--font-ovo);
+  font-weight: 500;
+}
